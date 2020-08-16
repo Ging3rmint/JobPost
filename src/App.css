@@ -102,7 +102,7 @@ header{
 }
 
 .content-frame .company-logo{
-  width: 10%;
+  width: 10vw;
   margin: 3% 2%;
 }
 
@@ -166,13 +166,19 @@ ul{
   justify-content: flex-end;
 }
 
+
 a,
 li{
   color: hsl(180, 29%, 50%);
   font-weight: 700;
   font-size: 1rem;
-  margin-right: 2rem;
+  margin-right: 0.8rem;
 }
+
+.clear{
+  margin-right: 0.8rem;
+}
+
 
 .skills{ 
   padding: 3% 4% 2%;
